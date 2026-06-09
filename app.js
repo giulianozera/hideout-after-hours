@@ -21,6 +21,10 @@
     nav.appendChild(a);
   });
 
+  // ---- Builder state (declared before the render loop so renderBuilder can use it) ----
+  const selected = new Map(); // key -> price
+  let base = 10;
+
   // ---- Render sections ----
   SECTIONS.forEach((sec) => {
     const section = document.createElement("section");
@@ -74,9 +78,6 @@
   }
 
   // ---- Build-your-own-board ----
-  const selected = new Map(); // key -> price
-  let base = 10;
-
   function renderBuilder(section, sec) {
     base = sec.base || 0;
 
