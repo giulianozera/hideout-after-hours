@@ -217,4 +217,15 @@
   } else {
     document.querySelectorAll(".reveal").forEach((el) => el.classList.add("in"));
   }
+
+  // ---- "Order Online" buttons — shown only when a Square ordering URL is set ----
+  (function wireOrderLinks() {
+    var url = (window.ORDER_ONLINE_URL || "").trim();
+    if (!/^https?:\/\//i.test(url)) return; // not published yet → buttons stay hidden
+    document.querySelectorAll("[data-order-link]").forEach(function (a) {
+      a.href = url;
+      a.hidden = false;
+    });
+    document.body.classList.add("ordering-live");
+  })();
 })();

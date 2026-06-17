@@ -248,8 +248,48 @@ body {
   .hero-scroll svg { animation: none; }
 }
 
+/* ---------------- ORDER ONLINE ---------------- */
+.order-cta {
+  display: inline-block;
+  margin-top: 2.2em;
+  padding: 0.9em 2.4em;
+  background: var(--coral);
+  color: #1a0f0a;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: transform 0.16s ease, background 0.16s ease;
+}
+.order-cta:hover { transform: translateY(-1px); background: var(--coral-soft); }
+
+.order-fab {
+  position: fixed;
+  top: 14px;
+  right: 16px;
+  z-index: 35;
+  padding: 0.62em 1.35em;
+  background: var(--coral);
+  color: #1a0f0a;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 999px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  transition: transform 0.16s ease, background 0.16s ease;
+}
+.order-fab:hover { transform: translateY(-1px); background: var(--coral-soft); }
+/* keep the centered nav pills clear of the floating button */
+.ordering-live .section-nav { padding-right: 150px; }
+
 @media (max-width: 560px) {
   .items { grid-template-columns: 1fr; gap: 0; }
   .section-nav { justify-content: flex-start; }
   .bb-label { display: none; }
+  .order-fab { top: 10px; right: 10px; font-size: 10px; padding: 0.55em 1.1em; }
+  .ordering-live .section-nav { padding-right: 120px; }
 }
