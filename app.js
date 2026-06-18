@@ -43,6 +43,12 @@
   });
 
   function renderList(section, sec) {
+    if (sec.note) {
+      const note = document.createElement("p");
+      note.className = "builder-note";
+      note.textContent = sec.note;
+      section.appendChild(note);
+    }
     const wrap = document.createElement("div");
     wrap.className = "items";
     sec.items.forEach((it) => {

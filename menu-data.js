@@ -7,12 +7,12 @@ window.ORDER_ONLINE_URL = "";
 
 window.MENU_SECTIONS = [
   {
-    id: "pinsa", navLabel: "Pinsa", title: "PINSA FOCACCIA", type: "list",
+    id: "pinsa", navLabel: "Pizza", title: "PIZZA FOCACCIA", type: "list",
     items: [
       { name: "BIANCA", price: 10, desc: "Rosemary, extra virgin olive oil, sea salt" },
       { name: "ROSSA", price: 12, desc: "Tomato, mozzarella, basil, extra virgin olive oil, sea salt" },
       { name: "FRESCA", price: 15, desc: "Mozzarella, arugula, prosciutto, cherry tomatoes, Parmesan shavings, extra virgin olive oil, sea salt" },
-      { name: "MARINARA", price: 11, desc: "Tomato, cherry tomatoes, oregano, garlic, basil, extra virgin olive oil, sea salt" }
+      { name: "NAPOLETANA", price: 11 } // TODO: confirm Napoletana price + description
     ]
   },
   {
@@ -24,9 +24,30 @@ window.MENU_SECTIONS = [
     ]
   },
   {
+    id: "salads", navLabel: "Salads", title: "SALADS", type: "list",
+    note: "Served with focaccia bread.",
+    items: [
+      { name: "PRAIANO", price: 12, desc: "Arugula, tomato, nuts, Parmesan shavings" },
+      { name: "POMPEI", price: 14, desc: "Mixed greens, avocado, tomato, goat cheese" },
+      { name: "SORRENTO", price: 15, desc: "Mozzarella, tomato, basil" }
+    ]
+  },
+  {
     id: "snack", navLabel: "Snack", title: "SNACK", type: "list",
     items: [
       { name: "SNACK OF THE DAY", desc: "Ask us for today’s selection" }
+    ]
+  },
+  {
+    // ─── DAILY SPECIAL — EDIT THIS EACH DAY ──────────────────────────────────
+    // Replace the placeholder item below with today's special. You can set a
+    // name, an optional price, and an optional desc. Examples:
+    //   { name: "TRUFFLE TAGLIATELLE", price: 16, desc: "Fresh pasta, black truffle, Parmesan, extra virgin olive oil, sea salt" }
+    //   { name: "BURRATA & PEACH", price: 14, desc: "Burrata, grilled peach, basil, extra virgin olive oil, sea salt" }
+    // On days with no special, leave the placeholder line as-is.
+    id: "special", navLabel: "Special", title: "SPECIAL OF THE DAY", type: "list",
+    items: [
+      { name: "Ask us for today’s special", desc: "" } // ← replace with the day's special
     ]
   },
   {
@@ -56,13 +77,11 @@ window.MENU_SECTIONS = [
       {
         title: "CHEESES",
         items: [
-          { name: "Parmesan", price: 3 },
-          { name: "Pecorino", price: 3 },
-          { name: "Provolone", price: 3 },
-          { name: "Ricotta", price: 3 },
           { name: "Mozzarella", price: 3 },
-          { name: "Burrata", price: 5 },
-          { name: "Feta", price: 3 }
+          { name: "Parmesan", price: 3 },
+          { name: "Goat cheese", price: 3 },
+          { name: "Brie", price: 3 }, // TODO: confirm price
+          { name: "Manchego", price: 3 } // TODO: confirm price
         ]
       },
       {
@@ -82,9 +101,10 @@ window.MENU_SECTIONS = [
   {
     id: "dessert", navLabel: "Dessert", title: "DESSERT", type: "list",
     items: [
-      { name: "COCONUT CHEESECAKE", price: 8, desc: "Coconut cream cheesecake, crunchy base" },
-      { name: "PISTACHIO MAGNUM", price: 8, desc: "Pistachio ice cream bar, chocolate shell" },
-      { name: "TIRAMISU", price: 8, desc: "Mascarpone, espresso-soaked ladyfingers, cocoa" }
+      { name: "PISTACHIO GELATO", price: 8, desc: "Pistachio gelato" },
+      { name: "TIRAMISU", price: 8, desc: "Mascarpone, espresso-soaked ladyfingers, cocoa" },
+      { name: "PISTACHIO TIRAMISU", price: 10 }, // TODO: confirm description
+      { name: "COCONUT LEMON", price: 8 } // TODO: confirm description
     ]
   },
   {
@@ -93,8 +113,8 @@ window.MENU_SECTIONS = [
       { name: "STILL / SPARKLING WATER", price: 5, desc: "Large glass bottle, still or sparkling" },
       { name: "COKE / COKE ZERO", price: 4, desc: "Coca-Cola / Coca-Cola Zero" },
       { name: "SPRITE", price: 4, desc: "Lemon-lime soda" },
-      { name: "ORANGE SODA", price: 4, desc: "Italian orange soda" },
-      { name: "LEMON SODA", price: 4, desc: "Italian lemonade" },
+      { name: "ARANCIATA", price: 4, desc: "Italian orange soda" },
+      { name: "LIMONATA", price: 4, desc: "Italian lemonade" },
       { name: "ICED TEA", price: 4, desc: "Peach or lemon iced tea" }
     ]
   },
