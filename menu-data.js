@@ -39,6 +39,14 @@ window.MENU_SECTIONS = [
     ]
   },
   {
+    id: "cornetto", navLabel: "Cornetto", title: "CORNETTO", type: "list",
+    items: [
+      { name: "PLAIN", price: 3 },
+      { name: "SWEET", price: 5 },
+      { name: "SALTY", price: 7.50 }
+    ]
+  },
+  {
     // ─── DAILY SPECIAL — EDIT THIS EACH DAY ──────────────────────────────────
     // Replace the placeholder item below with today's special. You can set a
     // name, an optional price, and an optional desc. Examples:
