@@ -3,7 +3,7 @@
 // ↓ GO-LIVE SWITCH: when the Square Online ordering page is published, paste its
 //   URL here (e.g. "https://lesfleurscafe.square.site"). While it is "" the
 //   "Order Online" buttons stay hidden. This one line is all that flips it live.
-window.ORDER_ONLINE_URL = "";
+window.ORDER_ONLINE_URL = "https://les-fleurs-mdr-llc.square.site";
 
 window.MENU_SECTIONS = [
   {
