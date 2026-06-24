@@ -1,0 +1,309 @@
+{
+  "generatedFrom": "menu-data.js",
+  "currency": "USD",
+  "items": [
+    {
+      "id": "pinsa-bianca",
+      "section": "PIZZA FOCACCIA",
+      "name": "BIANCA",
+      "priceCents": 1000
+    },
+    {
+      "id": "pinsa-rossa",
+      "section": "PIZZA FOCACCIA",
+      "name": "ROSSA",
+      "priceCents": 1200
+    },
+    {
+      "id": "pinsa-fresca",
+      "section": "PIZZA FOCACCIA",
+      "name": "FRESCA",
+      "priceCents": 1500
+    },
+    {
+      "id": "pinsa-napoletana",
+      "section": "PIZZA FOCACCIA",
+      "name": "NAPOLETANA",
+      "priceCents": 1100
+    },
+    {
+      "id": "sandwiches-caprese",
+      "section": "SANDWICHES",
+      "name": "CAPRESE",
+      "priceCents": 1200
+    },
+    {
+      "id": "sandwiches-parma",
+      "section": "SANDWICHES",
+      "name": "PARMA",
+      "priceCents": 1400
+    },
+    {
+      "id": "sandwiches-affumicato",
+      "section": "SANDWICHES",
+      "name": "AFFUMICATO",
+      "priceCents": 1500
+    },
+    {
+      "id": "salads-praiano",
+      "section": "SALADS",
+      "name": "PRAIANO",
+      "priceCents": 1200
+    },
+    {
+      "id": "salads-pompei",
+      "section": "SALADS",
+      "name": "POMPEI",
+      "priceCents": 1400
+    },
+    {
+      "id": "salads-sorrento",
+      "section": "SALADS",
+      "name": "SORRENTO",
+      "priceCents": 1500
+    },
+    {
+      "id": "cornetto-plain",
+      "section": "CORNETTO",
+      "name": "PLAIN",
+      "priceCents": 300
+    },
+    {
+      "id": "cornetto-sweet",
+      "section": "CORNETTO",
+      "name": "SWEET",
+      "priceCents": 500
+    },
+    {
+      "id": "cornetto-salty",
+      "section": "CORNETTO",
+      "name": "SALTY",
+      "priceCents": 750
+    },
+    {
+      "id": "board-board-les-fleurs-mix",
+      "section": "BOARD",
+      "name": "BOARD LES FLEURS MIX",
+      "priceCents": 2000
+    },
+    {
+      "id": "board-build-your-own-board",
+      "section": "BOARD",
+      "name": "BUILD YOUR OWN BOARD",
+      "priceCents": 1000
+    },
+    {
+      "id": "dessert-pistachio-gelato",
+      "section": "DESSERT",
+      "name": "PISTACHIO GELATO",
+      "priceCents": 800
+    },
+    {
+      "id": "dessert-tiramisu",
+      "section": "DESSERT",
+      "name": "TIRAMISU",
+      "priceCents": 800
+    },
+    {
+      "id": "dessert-pistachio-tiramisu",
+      "section": "DESSERT",
+      "name": "PISTACHIO TIRAMISU",
+      "priceCents": 1000
+    },
+    {
+      "id": "dessert-coconut-lemon",
+      "section": "DESSERT",
+      "name": "COCONUT LEMON",
+      "priceCents": 800
+    },
+    {
+      "id": "beverages-still-sparkling-water",
+      "section": "BEVERAGES",
+      "name": "STILL / SPARKLING WATER",
+      "priceCents": 500
+    },
+    {
+      "id": "beverages-coke-coke-zero",
+      "section": "BEVERAGES",
+      "name": "COKE / COKE ZERO",
+      "priceCents": 400
+    },
+    {
+      "id": "beverages-sprite",
+      "section": "BEVERAGES",
+      "name": "SPRITE",
+      "priceCents": 400
+    },
+    {
+      "id": "beverages-aranciata",
+      "section": "BEVERAGES",
+      "name": "ARANCIATA",
+      "priceCents": 400
+    },
+    {
+      "id": "beverages-limonata",
+      "section": "BEVERAGES",
+      "name": "LIMONATA",
+      "priceCents": 400
+    },
+    {
+      "id": "beverages-iced-tea",
+      "section": "BEVERAGES",
+      "name": "ICED TEA",
+      "priceCents": 400
+    },
+    {
+      "id": "coffee-espresso",
+      "section": "HIDEOUT COFFEE",
+      "name": "ESPRESSO",
+      "priceCents": 400
+    },
+    {
+      "id": "coffee-macchiato",
+      "section": "HIDEOUT COFFEE",
+      "name": "MACCHIATO",
+      "priceCents": 400
+    },
+    {
+      "id": "coffee-americano",
+      "section": "HIDEOUT COFFEE",
+      "name": "AMERICANO",
+      "priceCents": 400
+    },
+    {
+      "id": "coffee-cappuccino",
+      "section": "HIDEOUT COFFEE",
+      "name": "CAPPUCCINO",
+      "priceCents": 600
+    },
+    {
+      "id": "coffee-latte-hot-iced",
+      "section": "HIDEOUT COFFEE",
+      "name": "LATTE HOT / ICED",
+      "priceCents": 600
+    },
+    {
+      "id": "coffee-matcha-latte",
+      "section": "HIDEOUT COFFEE",
+      "name": "MATCHA LATTE",
+      "priceCents": 700
+    }
+  ],
+  "builder": {
+    "id": "build-your-own-board",
+    "name": "BUILD YOUR OWN BOARD",
+    "baseCents": 1000,
+    "groups": [
+      {
+        "title": "CURED MEATS",
+        "options": [
+          {
+            "id": "addon-prosciutto",
+            "name": "Prosciutto",
+            "priceCents": 300
+          },
+          {
+            "id": "addon-cooked-ham",
+            "name": "Cooked Ham",
+            "priceCents": 300
+          },
+          {
+            "id": "addon-mortadella",
+            "name": "Mortadella",
+            "priceCents": 300
+          },
+          {
+            "id": "addon-salami-napoli",
+            "name": "Salami Napoli",
+            "priceCents": 300
+          },
+          {
+            "id": "addon-turkey",
+            "name": "Turkey",
+            "priceCents": 300
+          },
+          {
+            "id": "addon-smoked-salmon",
+            "name": "Smoked Salmon",
+            "priceCents": 500
+          },
+          {
+            "id": "addon-tuna",
+            "name": "Tuna",
+            "priceCents": 400
+          }
+        ]
+      },
+      {
+        "title": "CHEESES",
+        "options": [
+          {
+            "id": "addon-mozzarella",
+            "name": "Mozzarella",
+            "priceCents": 300
+          },
+          {
+            "id": "addon-parmesan",
+            "name": "Parmesan",
+            "priceCents": 300
+          },
+          {
+            "id": "addon-goat-cheese",
+            "name": "Goat cheese",
+            "priceCents": 300
+          },
+          {
+            "id": "addon-brie",
+            "name": "Brie",
+            "priceCents": 300
+          },
+          {
+            "id": "addon-manchego",
+            "name": "Manchego",
+            "priceCents": 300
+          }
+        ]
+      },
+      {
+        "title": "GREEN",
+        "options": [
+          {
+            "id": "addon-arugula",
+            "name": "Arugula",
+            "priceCents": 200
+          },
+          {
+            "id": "addon-mixed-greens",
+            "name": "Mixed Greens",
+            "priceCents": 200
+          },
+          {
+            "id": "addon-avocado",
+            "name": "Avocado",
+            "priceCents": 300
+          },
+          {
+            "id": "addon-tomato",
+            "name": "Tomato",
+            "priceCents": 200
+          },
+          {
+            "id": "addon-cherry-tomatoes",
+            "name": "Cherry Tomatoes",
+            "priceCents": 200
+          },
+          {
+            "id": "addon-black-olives",
+            "name": "Black Olives",
+            "priceCents": 200
+          },
+          {
+            "id": "addon-caponata",
+            "name": "Caponata",
+            "priceCents": 300
+          }
+        ]
+      }
+    ]
+  }
+}
